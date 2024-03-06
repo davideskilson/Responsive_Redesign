@@ -20,6 +20,11 @@ li {
   font-family: "Poppins", sans-serif;
 }
 
+#pagelink a {
+  color: #4394b2;
+  font-family: "Poppins", sans-serif;
+}
+
 ul {
   display: flex;
   justify-content: center;
@@ -40,7 +45,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #028090;
-  color: rgb(16, 18, 61);
+  color: #ffffea;
 }
 
 button:hover,
@@ -198,7 +203,7 @@ img {
   background-color: rgb(71, 88, 218);
   width: 30vw;
   height: 50px;
-  color: rgb(212, 208, 208);
+  color: rgb(236, 226, 226);
   max-width: 400px;
 }
 

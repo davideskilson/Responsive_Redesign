@@ -1,12 +1,22 @@
 h1 {
   font-family: "Poppins", sans-serif;
   font-weight: 300;
+  color: #000000;
+  font-size: 32px;
 }
 
-h2,
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: #000000;
+  font-size: 24px;
+}
+
 h3 {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
+  color: #000000;
+  font-size: 18.72px;
 }
 
 li {
@@ -15,11 +25,15 @@ li {
   text-align: center;
   margin: 0 auto;
   list-style-position: inside;
+  font-weight: 400;
+  font-size: 16px;
 }
 
-#pagelink a {
+#pageLink a {
   color: #2f6a80;
-  font-family: "Poppins", sans-serif;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
 }
 
 ul {
@@ -36,13 +50,14 @@ button {
   width: 80%;
   height: 12%;
   margin: 10px;
-  font-size: 1rem;
   cursor: pointer;
   text-align: center;
   border: none;
   border-radius: 8px;
   background: #028090;
   color: #ffffea;
+  font-weight: 400;
+  font-size: 16px;
 }
 
 button:hover,
@@ -54,6 +69,8 @@ p {
   font-family: "Lato", sans-serif;
   color: #454242;
   font-weight: 500;
+  font-weight: 400;
+  font-size: 16px;
 }
 
 body {
@@ -104,6 +121,12 @@ body {
   width: 100vw;
 }
 
+a {
+  font-family: "Lato", sans-serif;
+  color: #0000ee;
+  font-size: 16px;
+}
+
 #names {
   display: flex;
   align-items: center;
@@ -127,7 +150,12 @@ body {
   min-width: 300px;
   width: fit-content;
   align-content: center;
-  color: rgb(183, 179, 179);
+}
+
+.nameCard a {
+  font-family: "Lato", sans-serif;
+  color: #0000ee;
+  font-size: 16px;
 }
 
 .nameCardEmail {
@@ -137,7 +165,6 @@ body {
   height: 120px;
   width: 300px;
   align-content: center;
-  color: rgb(183, 179, 179);
 }
 
 #agendasMinutesWrapper {
@@ -201,6 +228,8 @@ img {
   height: 50px;
   color: rgb(236, 226, 226);
   max-width: 400px;
+  font-weight: 400;
+  font-size: 16px;
 }
 
 #info button:hover,
